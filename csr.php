@@ -1,6 +1,6 @@
 <html>
         <head>
-                <title>Claranet SSL</title>
+                <title>SSL</title>
                 <link rel="stylesheet" type="text/css" href="style.css" />
         </head>
         <body>

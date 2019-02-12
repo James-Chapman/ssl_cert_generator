@@ -1,0 +1,11 @@
+body { background-color: #777; font: 1.0em/1.6em Verdana, Arial, Helvetica, sans-serif; color: #000; line-height: 1.1em; vertical-align: top; }
+#title-wrapper { width: 1000px; margin: 0 auto; border: 1px solid #000; margin-bottom: 20px; }
+#title-content { padding: 10px 30px; background-color: #DDD; text-align: center; }
+#page-wrapper { width: 1000px; margin: 0 auto; border: 1px solid #000; }
+#page-content { padding: 10px 30px; background-color: #DDD; }
+pre { background-color: #EEE; padding: 10px 30px; border: 1px solid #666; }
+h1 { color: #F00; }
+a:link, a:visited          { color: #F00; text-decoration: none; }
+a:hover, a:active, a:focus { color: #00F; text-decoration: none; }
+#form {  } 
+.elem {  }

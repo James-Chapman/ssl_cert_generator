@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+        <head>
+	        <title>Generate CSR</title>
+	        <link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+
+	<body>
+            <div id="title-wrapper"><div id="title-content">
+                <h1>Generate a CSR</h1>
+            </div></div>
+            <div id="page-wrapper"><div id="page-content">
+		<ul><li>This will generate a CSR and 4096 bit private key.</li>
+                    <li>Once generated, the CSR is ready to be submitted to a CA for signing.</li>
+                    <li>Information entered should be for the company the certificate will belong to.</li>
+		    <li>Make sure you enter the correct information. If you do not, the CA will reject the CSR and you'll have to start again.</li></ul>
+		
+                <div id="form"><form name="input" action="csr.php" method="post">
+                        <p class="elem">Domain: <input type="text" name="domain" /></p>
+                        <p class="elem">Company: <input type="text" name="company" /></p>
+                        <p class="elem">Email: <input type="text" name="email" /></p>
+                        <p class="elem">City: <input type="text" name="city" /></p>
+                        <p class="elem">County: <input type="text" name="county" /></p>
+                        <p class="elem">Country code: <input type="text" name="country" value="GB"/></p>
+                        <p class="elem">Days valid: <input type="text" name="days" value="365" /></p>
+                        <p class="elem"><input type="submit" value="Submit" /></p>
+                </form></div>
+
+	    </div></div>
+        </body>
+</html>
+
